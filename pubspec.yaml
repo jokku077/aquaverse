@@ -1,0 +1,42 @@
+name: jokku_s_application2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Julius Sans One
+      fonts: 
+        - asset: assets/fonts/JuliusSansOneRegular.ttf
+          weight: 400
+    - family: Dongle
+      fonts: 
+        - asset: assets/fonts/DongleRegular.ttf
+          weight: 400
+    - family: Libre Caslon Text
+      fonts: 
+        - asset: assets/fonts/LibreCaslonTextBold.ttf
+          weight: 700
+    - family: Karla
+      fonts: 
+        - asset: assets/fonts/KarlaRegular.ttf
+          weight: 400
+        - asset: assets/fonts/KarlaMedium.ttf
+          weight: 500
+    - family: Kaisei Tokumin
+      fonts: 
+        - asset: assets/fonts/KaiseiTokuminBold.ttf
+          weight: 700
